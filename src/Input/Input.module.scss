@@ -1,0 +1,25 @@
+
+.input {
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid #0c85d0;
+  font-size: 1.5rem;
+  color: black;
+  width: 70%;
+
+  &::placeholder {
+    color: black;
+    opacity: 0.4;
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  -moz-appearance: textfield;
+  &::-webkit-outer-spin-button,
+  &::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}
