@@ -1,5 +1,6 @@
 import Background from './Background';
 import Overlay from './Overlay';
+import Socials from './Socials';
 
 import './App.css';
 
@@ -9,6 +10,8 @@ function App() {
       <Background />
       
       <Overlay />
+      
+      <Socials />
     </div>
   );
 }

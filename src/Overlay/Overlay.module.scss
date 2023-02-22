@@ -1,18 +1,3 @@
-:root {
-  --dark-color: hsl(black, 100%, 9%);
-  --light-color: hsl(white, 95%, 98%);
-  --base: hsl(var(--hue), 95%, 50%);
-  --complimentary1: hsl(var(--hue-complimentary1), 95%, 50%);
-  --complimentary2: hsl(var(--hue-complimentary2), 95%, 50%);
-
-  --font-family: "Poppins", system-ui;
-
-  --bg-gradient: linear-gradient(
-                  to bottom,
-                  hsl(var(--hue), 95%, 99%),
-                  hsl(var(--hue), 95%, 84%)
-  );
-}
 
 strong {
   font-weight: 600;
