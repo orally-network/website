@@ -12,6 +12,8 @@
 /build
 .idea
 .env
+.dfx
+.firebase
 
 # misc
 .DS_Store
