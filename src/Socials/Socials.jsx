@@ -3,6 +3,7 @@ import React from 'react';
 import twitterSrc from './assets/twitter.png';
 import githubSrc from './assets/github.png';
 import mediumSrc from './assets/medium.png';
+import youtubeSrc from './assets/youtube.png';
 import styles from './Socials.module.scss';
 
 const Socials = () => {
@@ -19,6 +20,10 @@ const Socials = () => {
   
         <a className={styles.link} href="https://medium.com/@orally" target="_blank">
           <img className={styles.img} src={mediumSrc} alt="Medium" />
+        </a>
+        
+        <a className={styles.link} href="https://youtu.be/1ZDEyllqUcA" target="_blank">
+          <img className={styles.img} src={youtubeSrc} alt="Youtube" />
         </a>
       </div>
     </div>
